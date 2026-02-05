@@ -11,7 +11,7 @@ public class BaseTest {
     protected WebDriver driver;
 
     // Launch browser and open application
-    @BeforeMethod
+    @BeforeClass
     public void setup() throws InterruptedException {
         String browser = PropertyUtils.getProperty("browser");
         driver = DriverFactory.initDriver(browser);
@@ -20,7 +20,7 @@ public class BaseTest {
     }
 
     // Close browser
-    @AfterMethod
+    @AfterClass
     public void tearDown() {
     	if(driver != null) {
     		driver.quit();

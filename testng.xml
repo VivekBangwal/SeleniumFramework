@@ -5,6 +5,7 @@
     <test name="Login Automation Test">
         <classes>
             <class name="com.tests.LoginTest"/>
+            <class name="com.tests.SecureTest"/>
         </classes>
     </test>
 

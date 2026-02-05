@@ -1,7 +1,0 @@
-com\config\ConfigReader.class
-com\utils\PropertyUtils.class
-com\utils\ExcelUtils.class
-com\pages\SecurePage.class
-com\driver\DriverFactory.class
-com\pages\LoginPage.class
-com\utils\WrapperMethods.class

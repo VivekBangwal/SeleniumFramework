@@ -10,6 +10,13 @@
           <include name="verifyLoginAndTextFromExcel"/>
         </methods>
       </class> <!-- com.tests.LoginTest -->
+      <class name="com.tests.SecureTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SecurePageTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.tests.SecureTest -->
     </classes>
   </test> <!-- Login Automation Test(failed) -->
 </suite> <!-- Failed suite [Automation Suite] -->
